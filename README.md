@@ -5,8 +5,10 @@
 ## How to Build
 
 ### If your are familiar with Android development:
+1. [Build yourself on Computer ](https://androidaps.readthedocs.io/en/latest/SettingUpAaps/ComputerBuild.html#install-android-studio)
+2. APK Build with your Own JKS generation
 * Fork this repository.
-* Replace `keystore/demokeystore.jks` with your own key store file.
+* Replace `keystore/Mydemokeystore.jks` with your own key store file.
 * Add below secrets in the  `Actions secrets and variables` settings of your repository.  
 <a href="/Documentation/screen1.png"><img src="/Documentation/screen1.png?raw=true" alt="Screenshot of Actions secrets" width="800"></a>  
   `KEY_ALIAS`:  Key alais of your key store file.
@@ -18,12 +20,12 @@
 
 ### If your are NOT familiar with Android development:
 You need to get the secerts of the key store file to sign your application. For security reason, all of the passwords are NOT in this repoitory.
-**It's really recommanded that you can sign your apk file with your own key store file after learning some Android knowledge.**
+**It is strongly recommended to sign your APK file with your own keystore after learning basic Android concepts..**
 Please follow these steps:
 * Fork this repository.
-* Scan the below QR code and subscribe "一型码农Lex" WeChat Channel.  
-<a href="/Documentation/wechat_qr.png"><img src="/Documentation/wechat_qr.png?raw=true" alt="WeChat Channel QR code" width="340"></a>  
-* Join the WeChat group and ask for the secrets. (Get the WeChat group QR code form the middle menu of "一型码农Lex" WeChat Channel. Scan to join.)
+* Scan the below QR code and subscribe "T1D Sharing" Channel.  
+<a href="/Documentation/tgscreen.jpg"><img src="/Documentation/tgscreen.jpg?raw=true" alt="Channel QR code" width="340"></a>  
+* Join the TG Channel and ask for the secrets. 
 * Add below secrets in the  `Actions secrets and variables` settings of your repository.  
 <a href="/Documentation/screen1.png"><img src="/Documentation/screen1.png?raw=true" alt="Screenshot of Actions secrets" width="800"></a>  
   `KEY_ALIAS`, `KEY_PASSWORD`, `STORE_FILE`, `STORE_PASSWORD`. 
