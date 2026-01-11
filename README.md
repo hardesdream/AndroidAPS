@@ -5,7 +5,7 @@
 ## How to Build
 
 ### If your are familiar with Android development:
-1. [Build yourself on Computer ](https://androidaps.readthedocs.io/en/latest/SettingUpAaps/ComputerBuild.html#install-android-studio)
+1. [Build yourself on Computer ](https://androidaps.readthedocs.io/en/latest/SettingUpAaps/ComputerBuild.html#install-android-studio) OR
 2. APK Build with your Own JKS generation
 * Fork this repository.
 * Replace `keystore/Mydemokeystore.jks` with your own key store file.
